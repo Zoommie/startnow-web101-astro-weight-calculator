@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Source+Code+Pro:300,400,500,600,700');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://media.giphy.com/media/3oEduRuz7sG39dIiDS/giphy.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Droid Sans Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+}
+
+main{
+    width:30%;
+    margin:0 auto;
+    height: 100%;
+    background-color:rgba(0, 0, 0, .8);
+    padding: 0 5%;
+     border-left: 2px solid cyan;
+     border-right: 2px solid cyan;
+     
+}
+
+
+
+
+#one{
+    width: 100%;
+    height 300px;
+}
+
+#output{
+    width: 100%;
+    font-size: 1.7em;
+    color: cyan;
+}
+
+#two{
+    width:100%;
+    height: auto;
+    padding:30% 0;
+}
+
+#userWeight{
+    width: 49%;
+    float:left;
+    font-size: 1.7em;
+    background-color: black;
+    color:cyan;
+    border:1px solid cyan;
+}
+
+#planets{
+    width:49%;
+    float:right;
+    font-size: 1.7em;
+    background-color: black;
+    color: cyan;
+     border:1px solid cyan;
+}
+
+#three{
+    width: 100%;
+    height:auto;
+    text-align: center;
+}
+
+#calculateButton{
+    font-size: 1.7em;
+    padding: 4px 10px;
+    margin-bottom: 80px;
+ background-color: black;
+    color: cyan;
+
+-webkit-box-shadow: 2px 2px 61px 0px rgba(255,255,255,1);
+-moz-box-shadow: 2px 2px 61px 0px rgba(255,255,255,1);
+box-shadow: 2px 2px 61px 0px rgba(255,255,255,1);
+}
+
+#calculateButton:hover{
+    background-color: cyan;
+    color:black;
+
+    -webkit-box-shadow: 2px 2px 61px 0px rgba(255,255,255,1);
+-moz-box-shadow: 2px 2px 61px 0px rgba(0,255,255,1);
+box-shadow: 2px 2px 61px 0px rgba(0,255,255,1);
+}
